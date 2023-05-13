@@ -37,7 +37,7 @@ const PrimaryDropDownMenu = ({ setTogglePrimaryDropDown, user }) => {
             redirect: "/",
         },
         {
-            title: "Flipkart Plus Zone",
+            title: "SHOPPING Plus Zone",
             icon: <AddCircleIcon sx={{ fontSize: "18px" }} />,
             redirect: "/",
         },
@@ -78,13 +78,13 @@ const PrimaryDropDownMenu = ({ setTogglePrimaryDropDown, user }) => {
 
             {user.role === "admin" &&
                 <Link className="pl-3 py-3.5 border-b flex gap-3 items-center hover:bg-gray-50 rounded-t" to="/admin/dashboard">
-                    <span className="text-primary-blue"><DashboardIcon sx={{ fontSize: "18px" }} /></span>
+                    <span className="text-primary-green"><DashboardIcon sx={{ fontSize: "18px" }} /></span>
                     Admin Dashboard
                 </Link>
             }
 
             <Link className="pl-3 py-3.5 border-b flex gap-3 items-center hover:bg-gray-50 rounded-t" to="/account">
-                <span className="text-primary-blue"><AccountCircleIcon sx={{ fontSize: "18px" }} /></span>
+                <span className="text-primary-green"><AccountCircleIcon sx={{ fontSize: "18px" }} /></span>
                 My Profile
             </Link>
 

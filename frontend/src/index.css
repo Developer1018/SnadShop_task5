@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 body {
-    background-color: #f1f3f6;
+    background-color: #bcf5b3;
     font-family: 'Roboto', sans-serif;
 }
 
 /* hover navbar dropdown arrow */
 .arrow_down {
-  border-left: 11px solid transparent;
-  border-right: 11px solid transparent;
-  border-bottom: 11px solid #fff;
+  border-left: 17px solid transparent;
+  border-right: 17px solid transparent;
+  border-bottom: 17px solid #fff;
 }
 /* hover navbar dropdown arrow */
 
